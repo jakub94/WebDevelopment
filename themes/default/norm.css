@@ -1,0 +1,44 @@
+/* Normalize margin, padding */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre form, fieldset, input, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+/* Normalize all headings */
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-style:	normal;
+	font-weight: normal;
+}
+
+/* Normalize all special text elements */
+adress, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* Removes all list styles */
+ol, ul {
+	list-style:	none;
+}
+
+/* Removes any margins/paddings from tables */
+table {
+	border-collapse: collapse;
+	border-spacing:	0;
+}
+
+/* Removes borders */
+fieldset, img {
+	border: 0;
+}
+
+/* Align text within tables left */
+caption, th {
+	text-align: left;
+}
+
+/* Remove quotation marks */
+q:before, q:after {
+	content: '';
+}

@@ -1,0 +1,108 @@
+body
+{
+	margin: 0 auto; 
+	padding: 0 10px;
+	overflow: scroll; /* Force display of the scroll bar */
+	width: 1000px; 
+}
+
+header
+{
+	overflow: hidden; /* Removes empty space between sections of the site */
+	float: none;
+	color: inherit;
+	text-align: center; 
+}
+
+header img
+{
+	margin: 0 auto; 
+}
+
+nav
+{
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	overflow: hidden; /* Removes empty space between sections of the site */
+	float: none;
+	text-align: center; 
+}
+
+nav ul li
+{
+	display: inline; 
+	line-height: 40px; 
+	margin: 0 1%; 
+}
+
+nav ul a
+{
+	display: inline-block; 
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#content
+{
+	padding: 10px; 
+	margin: 0;
+	float: none;
+	overflow: hidden; /* Removes empty space between sections of the site */
+}
+
+.team_member
+{
+	display: inline-block; 
+	width: 100%;
+	margin-bottom: 20px;
+	margin-left: 65px; 
+	
+}
+
+.team_member:nth-child(even) table
+{
+	float: left;
+}
+
+.team_member:nth-child(odd) img
+{
+	float: left;	
+}
+
+.team_member table
+{
+	width: 600px;
+}
+
+
+.team_member table tr td
+{
+	padding: 1px 10px; 
+}
+
+
+footer
+{
+	margin: 0;
+	overflow: hidden; /* Removes empty space between sections of the site */
+	height: 100px;
+	text-align: center; 
+}
+
+footer ul
+{
+	margin: 15px auto; 
+}
+
+footer ul li
+{
+	display: inline; 
+	margin: 0 1%;  	
+}
+
+footer ul li a
+{
+	font-weight: 700;
+}

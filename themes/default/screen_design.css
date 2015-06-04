@@ -1,0 +1,56 @@
+body
+{
+	background-image: url(images/bg.png); /* themes/default/images/noisy_creme.png */
+}
+
+/*
+	Vendor-Prefixes will most likely give warnings when validating,
+	but that's how to do it when you want to be as compatible as possible.
+	And it doesn't really hurt either, so...
+*/
+header
+{
+	background-image: -webkit-linear-gradient(#4d1c1c 0%, #711c1c 100%); 
+	background-image: -moz-linear-gradient(#4d1c1c 0%, #711c1c 100%); 
+	background-image: -o-linear-gradient(#4d1c1c 0%, #711c1c 100%); 
+	background-image: -ms-linear-gradient(#4d1c1c 0%, #711c1c 100%);
+	background-image: linear-gradient(#4d1c1c 0%, #711c1c 100%);
+}
+
+header h1
+{
+ 	margin: auto;
+}
+
+nav
+{
+	background-color: #000; 
+	background-image: url(images/plank.png);
+}
+
+nav ul::after, nav ul::before
+{
+	content:	url(images/nail.png);
+	position:	relative;
+	top:		5px;
+}
+
+#content
+{
+	background-color: #0d0d0d; 
+}
+
+footer
+{
+	background-image: url(images/footer.png);
+}
+
+nav a:hover
+{
+	color: #f6e284;
+}
+
+footer a:hover
+{
+	color: #f6e284;	
+}

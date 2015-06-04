@@ -1,0 +1,181 @@
+/* Try to avoid accidental mouse selecting of elements */
+#game {
+	cursor: default;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /* user-select: none; */
+}
+
+#game {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	background-color: #fff;
+	background-image: url(../../images/game/meetingroom.jpg);
+	box-shadow: 0 0 8px #333;
+}
+
+.game-dialog {
+	position: absolute;
+	z-index: 1000;
+	width: 550px;
+	height: 350px;
+	margin: 100px;
+	padding: 25px;
+	background: rgba(200,200,255,0.85);
+	box-shadow: 0 0 10px rgba(150,150,205,0.85);
+	border-radius: 7px;
+	text-align: center;
+	font-size: 15pt;
+}
+
+.game-dialog p,
+.game-display,
+.game-button,
+.game-dialog .button {
+	color: #000;
+}
+
+.game-dialog h3 {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+.game-dialog .button {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#pause-button {
+	position: absolute;
+	top: 35px;
+	left: 5px;
+	width: 25px;
+	height: 25px;
+	padding: 0;
+	background-color: rgba(255,255,255,0.25);
+	background-image: url(../../images/game/icon_pause.png);
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+}
+
+#help-button {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 25px;
+	height: 25px;
+	padding: 0;
+	background-color: rgba(255,255,255,0.25);
+	background-image: url(../../images/game/icon_help.png);
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+}
+
+#hint-display {
+	position: absolute;
+	bottom: 5px;
+	left: 100px;
+	width: 600px;
+	height: 25px;
+	line-height: 25px;
+	background-color: rgba(200,200,255,0.85);
+	background-image: url(../../images/game/icon_search.png);
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	box-shadow: 0 0 10px rgba(150,150,205,0.85);
+	border-radius: 7px;
+	text-align: center;
+}
+
+#clock-display {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	background-color: rgba(200,200,255,0.85);
+	background-image: url(../../images/game/icon_stopwatch.png);
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	box-shadow: 0 0 10px rgba(150,150,205,0.85);
+	border-radius: 7px;
+	text-align: center;
+}
+
+#points-display {
+	position: absolute;
+	right: 5px;
+	top: 35px;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	background-color: rgba(200,200,255,0.85);
+	background-image: url(../../images/game/icon_object.png);
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	box-shadow: 0 0 10px rgba(150,150,205,0.85);
+	border-radius: 7px;
+	text-align: center;
+}
+
+.button, .game-button {
+	padding: 0.2em 0.6em;
+	background: rgba(255,255,255,0.25);
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button:hover, .game-button:hover {
+	background: rgba(255,255,255,0.5);
+	border: 1px solid rgba(255,255,255,0.75);
+}
+
+/*
+ * ITEMS
+ */
+ 
+.item {
+	position: absolute;
+}
+
+.item:hover {
+	cursor: pointer;
+}
+
+#sangria {
+	top: 390px;
+	left: 50px;
+}
+
+#notebook {
+	top: 320px;
+	left: 480px;
+}
+
+#whiteboard {
+	top: 195px;
+	left: 352px;
+}
+
+#burrito {
+	top: 340px;
+	left: 15px;
+}
+
+#champagner {
+	top: 258px;
+	left: 550px;
+}
+
+#drawing {
+	top: 194px;
+	left: 256px;
+}

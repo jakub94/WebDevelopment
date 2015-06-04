@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:complexType name="sitemapType">
+		<xs:sequence>
+			<xs:element name="page" type="pageType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="pageType">
+		<xs:sequence minOccurs="1" maxOccurs="unbounded">
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="link" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="id" use="required" type="xs:integer"/>
+		<xs:attribute name="parentId" type="xs:integer"/>
+	</xs:complexType>
+	
+	<xs:element name="sitemap" type="sitemapType"/>
+
+</xs:schema>

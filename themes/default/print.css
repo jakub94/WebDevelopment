@@ -1,0 +1,76 @@
+@import url(norm.css);
+@import url(screen_font.css);
+
+nav
+{
+	display: none; 
+}
+
+footer
+{
+	display: none;
+}
+
+h2
+{
+	border-bottom: 2px solid #000; 
+}
+
+*, html, body
+{
+	font-family: 'Times New Roman', serif;
+	font-weight: normal;
+	color: #111; /* Who knows, maybe #111 instead of #000 might save the user some ink :) */
+	background-color: transparent;
+}
+
+a::after
+{
+	content: " (URL: " attr(href) ")";  
+}
+
+header img
+{
+	float: left; 
+}
+
+/*
+header img::after
+{
+	content: "G3 Webdevelopment"; 
+}
+*/
+
+header h1
+{
+	display: none; 
+}
+
+#content
+{
+	clear: both; 
+}
+
+/*
+	The following 4 are copied from:
+	http://codex.wordpress.org/Styling_for_Print
+	(Section "Page Breaks")
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	page-break-after: avoid; 
+    page-break-inside: avoid;
+}
+
+img {
+	page-break-inside:avoid; 
+    page-break-after:avoid;
+}
+
+blockquote, table, pre {
+	page-break-inside: avoid;
+}
+
+ul, ol, dl {
+	page-break-before: avoid;
+}

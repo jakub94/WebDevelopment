@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<sitemap xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="sitemap.xsd">
+
+	<page id="1">
+		<name>Hello</name>
+		<link>index.html</link>
+	</page>
+
+	<page id="2">
+		<name>Team</name>
+		<link>content/team.html</link>
+	</page>
+
+	<page id="3">
+		<name>Coding Standards</name>
+		<link>content/coding_standards.html</link>
+	</page>
+
+	<page id="4">
+		<name>Game</name>
+		<link>content/game.html</link>
+	</page>
+
+	<page id="5">
+		<name>About Us</name>
+		<link>content/about_us.html</link>
+	</page>
+
+	<page id="6">
+		<name>Contact</name>
+		<link>content/contact.html</link>
+	</page>
+
+</sitemap>
